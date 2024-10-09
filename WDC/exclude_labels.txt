@@ -1,0 +1,12 @@
+exclude_labels = [
+    'Airport', 'Book', 'City', 'CollegeOrUniversityName', 'Company', 'Content', 'EventName', 'Game', 'Hospital', 'Hotel', 'HotelDescription',
+    'Industry', 'LakeBodyOfWater', 'LandmarksOrHistoricalBuildings', 'Language',
+    'LocalBusiness', 'Monarch', 'Movie', 'MovieDescription', 'Museum', 'MusicAlbum',
+    'PartyName', 'Person', 'Place', 'Recipe', 'TVEpisode', 'access', 'actor',
+    'address', 'author', 'availability', 'byArtist', 'country',
+    'description', 'director', 'email', 'faxNumber', 'genre', 'image', 'isbn',
+    'jobTitle', 'keywords', 'location', 'organizer', 'page_url', 'partOfSeries', 'performer',
+    'postalCode', 'postalcode', 'publisher', 'recipeCategory', 'region', 'row_id', 'servingSize',
+    'telephone', 'track','-','Code','duration','offers','openinghoursspecification.0','Numeric code','address.name','address_Airport','address_CollegeOrUniversity','address_Hospital','address_Hotel','address_LandmarksOrHistoricalBuildings','address_LocalBusiness','address_Museum','address_Place',
+    '-_VideoGame','Code_Airport','Language_Country','Language_Book'
+]
