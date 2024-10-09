@@ -123,3 +123,11 @@ After running `Gem.py`, results are saved as:
 
 - **Missing Columns**:
   If tables are missing columns, the script skips them and logs an error. Ensure all necessary columns are present in the `Tables/` directory.
+
+## Important Notes
+
+Due to different levels of precision for floating-point arithmetic and the architectural differences between various GPUs and CPUs, the resulting values may show slight variations. However, the overall conclusions and trends in the results will remain consistent.
+
+This work includes a modified version of the baseline methods mentioned above. The original license terms still apply, and we acknowledge the original authors of these methods for publicly sharing their code.
+
+
