@@ -48,10 +48,9 @@ Ensure you have Python 3.8+ and the following libraries installed before running
 
 2. **Ground Truth Labels**:
    - The `include_labels.txt` file contains preprocessed numeric-only labels.
-   - The `updated_column_gt.csv` file has both coarse-grained and fine-grained labels:
-     - Use `ColumnLabel` for coarse-grained labels.
-     - Use `fine_grained_label` for fine-grained labels.
-
+   - The `coarse-grained_column_gt.csv` file has coarse-grained labels.
+   - The `fine-grained_column_gt.csv` file has fine-grained labels.
+     
 To use coarse-grained labels, replace `gt_df['fine_grained_label']` with `gt_df['ColumnLabel']` in `Gem.py` and the relevant baseline scripts.
 
 ## Running GEM
